@@ -1,0 +1,152 @@
+
+.navbar {
+    background-color: #415A77;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 18px; 
+    margin-left: 20px;
+  }
+  
+
+  .profile-pic {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%; 
+  }
+  
+ 
+  .nav-link {
+    color: #fff !important;
+    margin-right: 1rem;
+    margin-top: 2rem;
+  }
+  
+form
+{
+  display: flex;
+}
+  .form-inline .form-control {
+    border-color: #fff;
+  }
+  
+ 
+  .dark-mode-toggle {
+    color: #fff !important;
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+  
+  
+  .navbar-nav .nav-item:last-child .dropdown-menu {
+    right: 0; 
+  }
+  
+
+  @media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 16px;
+    }
+  }
+ #basic-navbar-nav{
+  display: flex;
+ }
+ #basic-nav-dropdown
+ {
+  margin-left:40px;
+  margin-right:40px;
+ }
+
+ .btn.btn-outline-light {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+}
+
+
+.btn.btn-outline-light {
+  background-color: #778DA9;
+}
+
+
+.btn.btn-outline-light:hover {
+  background-color: #2980b9;
+}
+
+
+.btn.btn-outline-light:active {
+  background-color: #1f618d;
+}
+.btn.btn-outline-dark {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+}
+
+
+.btn.btn-outline-dark {
+  background-color: #293241;
+}
+
+
+.btn.btn-outline-dark:hover {
+  background-color: #2980b9;
+}
+
+
+.btn.btn-outline-dark:active {
+  background-color: #1f618d;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light
+{
+  background-color: #415A77;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-dark
+{
+  background-color: #293241;
+}
+
+.nav-item.dropdown
+{
+  margin-top: 5px;
+}
+
+.mr-sm-2.form-control
+{
+  width: 100%; 
+  @media (min-width: 576px) {
+    width: 300px; 
+    border-radius: 4px; 
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border:none;
+  }
+}

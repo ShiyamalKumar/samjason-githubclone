@@ -1,0 +1,87 @@
+
+.listing-container {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .listing-title {
+    font-size: 28px;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #000;
+  }
+  
+  .card {
+    border: none;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s;
+    background-color: #415A77;
+    padding: 20px;
+    width: 50%;
+    display: grid;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  figure {
+    display: grid;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  figure > * {
+    grid-area: 1/1;
+    transition: .4s;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #FBFBFB;
+  }
+  
+
+  .card-text {
+    font-size: 16px;
+    color: #FBFBFB;
+  }
+  
+ 
+  .list-group-item {
+    font-size: 14px;
+    border: none;
+  }
+  
+  .list-group-item strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+
+  .no-description {
+    font-style: italic;
+  }
+  
+  .no-language {
+    font-style: italic;
+    color: #777;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
